@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Bro Sis Recognizer</title>
+    <link rel="icon" href="BSR (Bro Sis Recognizer) Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+    <center>
+      <h3 class="heading"><img id="BSRlogo" src="BSR (Bro Sis Recognizer) Logo.gif">Bro Sis Recognizer</h3>
+      <br><br>
+      <b class="brosis">
+        <hr>
+        Ramit Krishna K
+        <hr>
+        Ranvita K
+        <hr>
+      </b>
+      <label id="qwerty">Webcam View: </label>
+      <div id="cam">
+      </div>
+      <br><br>
+      <label id="qwerty">Webcam Result: </label>
+      <div id="camresult"></div>
+      <br><br>
+      <button class="btn btn-warning" onclick="takepicture()"><img id="takepicture" src="https://www.freeiconspng.com/thumbs/camera-icon/camera-icon-21.png"></button>
+      <br><br>
+      <button class="btn btn-warning" id="check" onclick="check()">Identify Image</button>
+      <br><br>
+      <h4>Person: <span id="personname"></span></h4>
+      <h4>Accuracy: <span id="personaccuracy"></span></h4>
+    </center>
+  </div>
+<script src="main.js"></script>
+  </body>
+</html>

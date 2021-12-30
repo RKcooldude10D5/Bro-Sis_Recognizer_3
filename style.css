@@ -1,0 +1,38 @@
+body{
+    font-family: arial;
+    background: linear-gradient(lightcoral 0%, fuchsia 100%);
+    background-repeat: no-repeat;
+    color: white;
+}
+h3{
+    font-family: 'Bungee Inline', cursive;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 100px;
+}
+#check{
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 100px;
+}
+#takepicture{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+#BSRlogo{
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.brosis{
+    font-weight: lighter;
+}
+#qwerty{
+    color: goldenrod;
+}
